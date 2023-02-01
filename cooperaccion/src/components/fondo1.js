@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import '../style2.css';
 import logos from '../logo.png'
-import tablero from '../tablero.png'
+
 import Space from './space'
 import PorqueArticle from './porqueArticle'
 import PorqueButton from './porqueButton'
@@ -32,7 +32,7 @@ function Fondo1 () {
                  <br/><br/><br/>
                  <p>
                      ¿Por qué abordar el tema del cooperativismo con estudiantes en la escuela secundaria?
-                 <img src={tablero} alt="tablero" className={`${clicked ? 'hide':''}`} style={{right: '80px', marginTop: '110px', position: 'absolute', width: '356px', boxShadow: '4px 4px 5px rgba(0, 0, 0, 0.25)', transform: 'rotate(-27.29deg)'}}/>
+                divz
                  </p>
                 
             <PorqueButton clicked={clicked} setClicked={setClicked} />
