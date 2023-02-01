@@ -15,7 +15,7 @@ function App() {
         <Header />
        
         <Fondo1/>
-        <img src={tablero} alt="tablero" className={`${hide ? 'hide':''}`} style={{right: '0', marginTop: '-100px', position: 'absolute', width: '60vw', boxShadow: '4px 4px 5px rgba(0, 0, 0, 0.25)', transform: 'rotate(-27.29deg)'}}/>
+        <img src={tablero} alt="tablero" className={`${hide ? 'hide':''}`} style={{right: '20vw', marginTop: '-100px', position: 'absolute', width: '50vw', boxShadow: '4px 4px 5px rgba(0, 0, 0, 0.25)', transform: 'rotate(-27.29deg)'}}/>
         <Fondo2/>
         <Fondo3/>
 
