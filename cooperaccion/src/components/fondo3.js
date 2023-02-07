@@ -12,10 +12,11 @@ class fondo3 extends Component {
             <br/>
             <br/>
             <br/>
-        <div id="yDespues">
             <h3 className="title" > ¿Y DESPUES?</h3>
+        <div id="yDespues" >
+         
             
-            <h1><i>PROPUESTA EDUCATIVA PARA REALIZAR DESPUES DEL JUEGO</i></h1>
+            <h1 style={{paddingTop: '200px'}}><i>PROPUESTA EDUCATIVA PARA REALIZAR DESPUES DEL JUEGO</i></h1>
             <p>Luego de jugar, es importante destinar un tiempo para
                  reflexionar sobre cómo se ha jugado y
                   lo que se ha aprendido. <br/>

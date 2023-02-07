@@ -35,6 +35,11 @@
     font-display: swap;
 }
 html {
+
+   
+   
+    scroll-snap-type: x mandatory;
+  
     scroll-behavior: smooth;
   }
 /* burguer menu  */
@@ -245,14 +250,15 @@ li{
     min-width: 90%;
     padding: 5%;
     overflow-y: scroll;
+    scroll-snap-align: start;
 }
 #porqueActive{
     padding: 20px;
 }
 
 .articleJuego{
-  
-   
+    scroll-snap-type: x mandatory;
+    
     overflow-x: scroll;
     display: flex;
    

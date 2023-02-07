@@ -8,21 +8,14 @@ import articles from './articlesFondo2'
 import Objetivo  from "./objetivo";
 function Fondo2 (props)  {
     
-        // const [width,setWidth] = useState(0)
-        // const carousel = useRef()
-        // useEffect(()=>{
-        //     console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
-        //     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
-        // })
-        // const  [puntito,setPuntito] = useState(0)
-        // const { scrollXProgress } = useScroll({ container: ref });
-        // const { scrollYProgress } = useScroll(); 
-//         const carouselRef = useRef(null)
-// const { scrollX } = useScroll({
-//   container: carouselRef
-// })  
-const ref = useRef()
-const { scrollXProgress } = useScroll({ container: ref });
+         const [width,setWidth] = useState(0)
+         const carousel = useRef()
+
+ useEffect(()=>{
+            console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
+         
+         })
+
 
         return(
             <div className="fondo2" >
@@ -32,15 +25,12 @@ const { scrollXProgress } = useScroll({ container: ref });
             <br/>
             <h3 className="title" style={{marginTop: '100px'}}> EL JUEGO </h3>
             <div id="elJuego" style={{paddingTop: '200px'}} >
-            <motion.div
-        className="progress-bar"
-        style={{ scaleX: scrollXProgress }}
-      />
-                <motion.div  className="carrousel">
+           
+                <motion.div  ref={carousel} className="carrousel">
                 
                 {/* <motion.article drag='x' dragConstraints={{right: 0,left: -width}} className="articleJuego"> */}
 
-                <motion.article ref={ref}  style={{height:'60vh'}} className="articleJuego" >
+                <motion.article  style={{height:'60vh'}} className="articleJuego" >
                     {articles.map(e =>{
                      return(
                        <motion.div className="itemFondo2" key={Math.random()}> {e.title} </motion.div>
