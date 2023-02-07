@@ -16,7 +16,13 @@ function Fondo2 (props)  {
         // })
         // const  [puntito,setPuntito] = useState(0)
         // const { scrollXProgress } = useScroll({ container: ref });
-        // const { scrollYProgress } = useScroll();     
+        // const { scrollYProgress } = useScroll(); 
+//         const carouselRef = useRef(null)
+// const { scrollX } = useScroll({
+//   container: carouselRef
+// })  
+const ref = useRef()
+const { scrollXProgress } = useScroll({ container: ref });
 
         return(
             <div className="fondo2" >
@@ -25,12 +31,16 @@ function Fondo2 (props)  {
             <br/>
             <br/>
             <h3 className="title" style={{marginTop: '100px'}}> EL JUEGO </h3>
-            <div id="elJuego" >
+            <div id="elJuego" style={{paddingTop: '200px'}} >
+            <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollXProgress }}
+      />
                 <motion.div  className="carrousel">
-
-                <motion.article className="articleJuego">
+                
                 {/* <motion.article drag='x' dragConstraints={{right: 0,left: -width}} className="articleJuego"> */}
 
+                <motion.article ref={ref}  style={{height:'60vh'}} className="articleJuego" >
                     {articles.map(e =>{
                      return(
                        <motion.div className="itemFondo2" key={Math.random()}> {e.title} </motion.div>
@@ -39,14 +49,14 @@ function Fondo2 (props)  {
                    
                     </motion.article>
                 </motion.div>
-            <div style={{ paddingBottom: '50px', display: 'flex',justifyContent: 'space-around'}}>
-                {/* <div id="objetivoP" className="puntito seleccionado" style={{width:'4px'}}></div>
+            <div style={{ padding: '50px', display: 'flex',justifyContent: 'space-around'}}>
+                <div id="objetivoP" className="puntito seleccionado" style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div> */}
+                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                
                {
       

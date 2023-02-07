@@ -16,14 +16,14 @@ function Fondo1 () {
         setClicked(!clicked)
     }
         return(
-            <div className="fondo">
+            <div className="fondo"  >
             
     
          <div style={{height:' 100vh'   , display: 'flex', alignItems: 'center', padding: '20px'}} >
             <img  className='Logo'src={logos} alt="logos"/>
              </div>
              
-             <h3 className="title"  > POR QUÉ Y PARA QUÉ </h3>
+             <h3 className="title"   > POR QUÉ Y PARA QUÉ </h3>
        
             <Porque clicked={clicked} setClicked={setClicked} />    
             

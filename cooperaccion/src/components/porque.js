@@ -6,7 +6,7 @@ import PorqueButton from './porqueButton'
 export default function Porque (props){
 
         return (
-            <div id={`${props.clicked ? 'porqueActive':'porque'}`}  >
+            <div id={`${props.clicked ? 'porqueActive':'porque'}`} style={{paddingTop: '200px'}} >
                  
             <h1> <i>COOPERACCIÓN </i><Space/> tiene  como propósito promover los valores del cooperativismo 
                 en la comunidad escolar, dar a conocer sus principales características, 
