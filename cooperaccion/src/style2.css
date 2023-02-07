@@ -220,6 +220,7 @@ li{
     align-items: center;
     cursor: pointer;
 }
+
 .porqueArticle{
     display: none;
 }
@@ -236,10 +237,31 @@ li{
     width: 80vw;
     padding-left: 40px;
 }
-
+.carrousel{
+        overflow: hidden;
+        cursor: grab;
+}
+.itemFondo2{
+    min-width: 90%;
+    padding: 5%;
+}
+#porqueActive{
+    padding: 20px;
+}
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--red);
+    transform-origin: 0%;
+  }
 .articleJuego{
   
-    height: 100vh;
+    height: 100%;
+    overflow-x: scroll;
+    display: flex;
 }
 .articleJuego p{
     margin-top: 40px;

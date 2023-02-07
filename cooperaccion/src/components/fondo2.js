@@ -1,11 +1,23 @@
-import React,{Component} from "react";
+import React from "react";
 import '../style2.css';
 import logos from '../logo.png'
 import tablero from '../tablero.png'
-
-class fondo2 extends Component {
+import {motion, useScroll} from 'framer-motion'
+import {useRef, useEffect, useState} from 'react'
+import articles from './articlesFondo2'
+import Objetivo  from "./objetivo";
+function Fondo2 (props)  {
     
-    render(){
+        // const [width,setWidth] = useState(0)
+        // const carousel = useRef()
+        // useEffect(()=>{
+        //     console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
+        //     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+        // })
+        // const  [puntito,setPuntito] = useState(0)
+        // const { scrollXProgress } = useScroll({ container: ref });
+        // const { scrollYProgress } = useScroll();     
+
         return(
             <div className="fondo2" >
             <br/>
@@ -14,32 +26,39 @@ class fondo2 extends Component {
             <br/>
             <h3 className="title" style={{marginTop: '100px'}}> EL JUEGO </h3>
             <div id="elJuego" >
-                <article id="objetivo" className="articleJuego">
-                    <h1><i>OBJETIVO</i></h1>
-                    <p>Cooperacción es un juego de escape.
-                        El objetivo es poder salir de una situación ( “escapar”) a través de cumplir 4 misiones. <br/>
-                        <br/>
-                    
-                    Se parte de una situación que se comparte con los participantes y se los desafía a resolverla antes de que acabe el tiempo pautado.La dinámica del juego busca crear un espíritu de colaboración dentro de cada grupo y entre grupos; no de competencia.Por eso el objetivo es “salir” todos juntos, no que un grupo gane o se salve solo, de hecho esa opción no es posible</p>
-                
-            </article>
+                <motion.div  className="carrousel">
+
+                <motion.article className="articleJuego">
+                {/* <motion.article drag='x' dragConstraints={{right: 0,left: -width}} className="articleJuego"> */}
+
+                    {articles.map(e =>{
+                     return(
+                       <motion.div className="itemFondo2" key={Math.random()}> {e.title} </motion.div>
+                     )
+                    })}
+                   
+                    </motion.article>
+                </motion.div>
             <div style={{ paddingBottom: '50px', display: 'flex',justifyContent: 'space-around'}}>
-                <div id="objetivoP" className="puntito seleccionado" style={{width:'4px'}}></div>
+                {/* <div id="objetivoP" className="puntito seleccionado" style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
                 <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
+                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div> */}
                
+               {
+      
+               }
             </div>  
         </div>
         
     </div>
 
     )
-}
+
 }
 
 
-export default fondo2
+export default Fondo2
