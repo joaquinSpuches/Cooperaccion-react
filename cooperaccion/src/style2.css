@@ -267,12 +267,12 @@ li{
     scroll-snap-align: start;
 }
 #porqueActive{
-    padding: 20px;
+    padding: 5%
 }
 
 .articleJuego{
     scroll-snap-type: x mandatory;
-    
+   height: 65vh;
     overflow-x: scroll;
     display: flex;
    

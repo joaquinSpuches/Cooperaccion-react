@@ -2,10 +2,9 @@ import React from "react";
 import { useState,useEffect } from "react";
 import {motion} from 'framer-motion'
 export default function PorqueArticle(props) {
-    const x = {opacity:1
-        
+    const x = {opacity:1, scale : 1
       }
-    const y = {opacity:0
+    const y = {opacity:0,scale:0
       
     }
 

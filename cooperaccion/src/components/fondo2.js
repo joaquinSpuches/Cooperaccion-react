@@ -24,13 +24,13 @@ function Fondo2 (props)  {
             <br/>
             <br/>
             <h3 className="title" style={{marginTop: '100px'}}> EL JUEGO </h3>
-            <div id="elJuego" style={{paddingTop: '200px'}} >
+            <div id="elJuego" style={{paddingTop: '200px',height:'100vh'}} >
            
                 <motion.div  ref={carousel} className="carrousel">
                 
                 {/* <motion.article drag='x' dragConstraints={{right: 0,left: -width}} className="articleJuego"> */}
 
-                <motion.article  style={{height:'60 vh'}} className="articleJuego" >
+                <motion.article  style={{}} className="articleJuego" >
                     {articles.map(e =>{
                      return(
                        <motion.div className="itemFondo2" key={Math.random()}> {e.title} </motion.div>
