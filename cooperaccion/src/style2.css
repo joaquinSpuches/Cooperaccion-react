@@ -230,6 +230,10 @@ li{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+.articles{
+    overflow-y: scroll;
+    padding: 5%;
+}
 
 .porqueArticle{
     max-height: 0px;
@@ -272,7 +276,7 @@ li{
 
 .articleJuego{
     scroll-snap-type: x mandatory;
-   height: 65vh;
+   max-height: 0vh;
     overflow-x: scroll;
     display: flex;
    

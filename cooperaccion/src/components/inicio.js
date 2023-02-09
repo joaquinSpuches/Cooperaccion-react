@@ -16,7 +16,7 @@ export default function Inicio () {
     return(
         <div className="articles">
             
- <h1><i>INICIO</i></h1><p>
+ <h1 id='inicio'><i>INICIO</i></h1><p>
  Para comenzar, se tomará la Tarjeta de Inicio.
 <br/>
 La misma contiene la historia central del juego.
