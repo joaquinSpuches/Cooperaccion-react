@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cooperaccion-react/static/css/main.e9dc69f3.css",
-    "main.js": "/Cooperaccion-react/static/js/main.3829c06e.js",
+    "main.css": "/Cooperaccion-react/static/css/main.c1dcd814.css",
+    "main.js": "/Cooperaccion-react/static/js/main.117b5053.js",
     "static/js/787.91ba2e3c.chunk.js": "/Cooperaccion-react/static/js/787.91ba2e3c.chunk.js",
     "static/media/Asset 4.png": "/Cooperaccion-react/static/media/Asset 4.08ee34578a2705cb5704.png",
     "static/media/tablero.png": "/Cooperaccion-react/static/media/tablero.00779b180385035caa5e.png",
@@ -18,12 +18,12 @@
     "static/media/AkzidenzGroteskBE-Regular.woff2": "/Cooperaccion-react/static/media/AkzidenzGroteskBE-Regular.395bb3b75ce12f44bd3d.woff2",
     "static/media/logo.svg": "/Cooperaccion-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Cooperaccion-react/index.html",
-    "main.e9dc69f3.css.map": "/Cooperaccion-react/static/css/main.e9dc69f3.css.map",
-    "main.3829c06e.js.map": "/Cooperaccion-react/static/js/main.3829c06e.js.map",
+    "main.c1dcd814.css.map": "/Cooperaccion-react/static/css/main.c1dcd814.css.map",
+    "main.117b5053.js.map": "/Cooperaccion-react/static/js/main.117b5053.js.map",
     "787.91ba2e3c.chunk.js.map": "/Cooperaccion-react/static/js/787.91ba2e3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9dc69f3.css",
-    "static/js/main.3829c06e.js"
+    "static/css/main.c1dcd814.css",
+    "static/js/main.117b5053.js"
   ]
 }
