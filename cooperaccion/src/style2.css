@@ -240,7 +240,7 @@ li{
 }
 .porqueArticle-active{
     display: block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-out;
      overflow-y: scroll;
     height: 100vh;
     right: 0;
