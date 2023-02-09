@@ -16,10 +16,10 @@ function Fondo1 () {
         setClicked(!clicked)
     }
         return(
-            <div className="fondo"  >
+            <div className="fondo"   >
             
     
-         <div style={{height:' 100vh'   , display: 'flex', alignItems: 'center', padding: '20px'}} >
+         <div style={{height:' 100vh'   , display: 'flex', alignItems: 'center',justifyContent:'center' ,padding: '20px'}} >
             <img  className='Logo'src={logos} alt="logos"/>
              </div>
              

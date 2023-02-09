@@ -30,7 +30,7 @@ function Fondo2 (props)  {
                 
                 {/* <motion.article drag='x' dragConstraints={{right: 0,left: -width}} className="articleJuego"> */}
 
-                <motion.article  style={{height:'60vh'}} className="articleJuego" >
+                <motion.article  style={{height:'60 vh'}} className="articleJuego" >
                     {articles.map(e =>{
                      return(
                        <motion.div className="itemFondo2" key={Math.random()}> {e.title} </motion.div>

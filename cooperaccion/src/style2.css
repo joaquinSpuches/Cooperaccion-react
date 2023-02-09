@@ -119,7 +119,7 @@ html {
 
 nav{
     position: fixed;
-    background-color: #f5f5f72d;
+    background-color: #25408cd8;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -128,9 +128,10 @@ nav{
     left: -100vw;
     transition: 0.5s ease-out;
 }
+
 .nav-active{
     left: 0;
-    
+    z-index: 1;
 }
 nav ul{
     display: flex;
@@ -180,7 +181,8 @@ nav ul a{
     color: #f5f5f7; 
     width: 250px;
     border-radius: 10px 0 0 10px;
-    right: 0
+    right: 0;
+    margin-top: 65px;
 }
 h1{
    
@@ -204,15 +206,15 @@ li{
     color: #f5f5f7;
 }
 #porque{
-    padding: 20px;
+    padding: 5%;
    
 }
 
-#eljuego{
-    padding: 20px;
+#elJuego{
+   
 }
-#ydespues{
-    padding: 20px
+#yDespues{
+    padding: 5%
 }
 .porqueButton{
     margin-bottom: 100px;
@@ -230,7 +232,7 @@ li{
 }
 
 .porqueArticle{
-    height: 0px;
+    max-height: 0px;
     transition: all 0.3s ease-in-out;;
 }
 .porqueButtonActive{
@@ -240,9 +242,9 @@ li{
 }
 .porqueArticle-active{
     display: block;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
      overflow-y: scroll;
-    height: 100vh;
+    max-height: 2000px;
     right: 0;
     left: 0;
     margin: 0;
@@ -250,8 +252,8 @@ li{
 }
 .porqueArticle ul {
     
-    width: 80vw;
-    padding-left: 40px;
+    width: 90%;
+    padding-left: 10%;
 }
 .carrousel{
         overflow: hidden;
@@ -261,6 +263,7 @@ li{
     min-width: 90%;
     padding: 5%;
     overflow-y: scroll;
+    
     scroll-snap-align: start;
 }
 #porqueActive{
@@ -298,7 +301,7 @@ li{
     border-radius: 50%;
     background-color: #F5F5F7;
   
-    position:absolute;
+    
     left:-30px
 }
 #circulo ul{

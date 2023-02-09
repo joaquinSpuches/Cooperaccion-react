@@ -1,13 +1,14 @@
 import React,{Component} from "react";
+import {motion} from 'framer-motion'
 import '../style2.css';
 import logos from '../logo.png'
 import tablero from '../tablero.png'
-
+import Fondo3Article from "./fondo3Article";
 class fondo3 extends Component {
     
     render(){
         return(
-            <div className="fondo3" style={{height: '100vh'}}>
+            <div className="fondo3" style={{height: 'auto'}}>
             <br/>
             <br/>
             <br/>
@@ -22,13 +23,14 @@ class fondo3 extends Component {
                   lo que se ha aprendido. <br/>
                     <br/>
                   Sugerimos entonces la siguiente secuencia de trabajo:</p>
-                  <div id="circulo">
+                  <motion.div id="circulo" animate={{x:-50}}>
                       <ul id="ulDespues">
                           <a href="#como">¿Cómo jugamos?</a>
                           <a href="#aprendimos">¿Qué aprendimos del cooperativismo?</a>
                           <a href="#aporte">¿Qué nos aporta y en qué puedo/podemos aplicarlo?</a>
                       </ul>
-                  </div>
+                  </motion.div>
+            <Fondo3Article/>
     </div> 
 </div>
     )
