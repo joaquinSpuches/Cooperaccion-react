@@ -9,7 +9,7 @@ export default function PorqueButton (props){
       
     }
     return(
-        <div id="porqueButton" onClick={handleClick} className="porqueButton">
+        <div id="porqueButton" onClick={handleClick} className={`porqueButton ${props.clicked ? 'porqueButtonActive':''} `}>
         <div 
      style={{position: 'absolute',
              width: '25px',

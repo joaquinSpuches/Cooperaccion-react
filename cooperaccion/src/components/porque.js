@@ -14,7 +14,7 @@ export default function Porque (props){
             <br/><br/><br/>
             <p>
                 ¿Por qué abordar el tema del cooperativismo con estudiantes en la escuela secundaria?
-           divz
+          
             </p> 
             <PorqueButton clicked={props.clicked} setClicked={props.setClicked} />
             <PorqueArticle clicked={props.clicked} />
