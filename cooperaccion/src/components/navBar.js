@@ -19,7 +19,7 @@ function NavBar(props) {
             <a onClick={handleClick} id='liNav' href="#porque"> POR QUÉ Y PARA QUÉ</a>
             <a onClick={handleClick} id='liNav'href="#elJuego"> EL JUEGO </a>
             <a onClick={handleClick} id='liNav'href="#yDespues">¿Y DESPUES?</a>
-            <a onClick={handleClick} id='liNav'href="#Cerrar"> CERRAR ARA ABRIR</a>
+            <a onClick={handleClick} id='liNav'href="#cerrar"> CERRAR ARA ABRIR</a>
         </ul>
     </nav>
     

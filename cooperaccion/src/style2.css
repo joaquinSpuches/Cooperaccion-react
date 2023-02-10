@@ -70,6 +70,7 @@ html {
   .inactive{
     display: none;
   }
+
   
 #hamburger-6.is-active{
     -webkit-transition: all 0.3s ease-in-out;
@@ -350,3 +351,37 @@ li{
     color: #E46B4A;
 }
 
+#cerrar{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    align-items: center;
+    flex-direction: column;
+}
+#cerrar img{ 
+    margin-top: 200px   ;
+    max-width: 300px;
+    width: 30%;
+    height: auto;
+    margin-bottom: 100px;
+}
+#cerrar p{
+    color: #212427;
+    padding: 5%;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    margin-top: 40px;
+    overflow-x: hidden;
+    
+ 
+}
+#footer img{
+    height: 100%; 
+    padding: 30px;
+    max-height: 52px;
+    width: auto;
+}
