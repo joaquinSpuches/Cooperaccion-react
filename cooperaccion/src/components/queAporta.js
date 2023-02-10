@@ -4,7 +4,7 @@ import '../fondo3.css'
 export default function queAporta (){
 
     return(
-        <div id="3" className="actives">
+        <div id="3" className="actives h">
             
             <h1>3) ¿Qué nos aporta y en qué podemos aplicarlo?</h1>
             <p>

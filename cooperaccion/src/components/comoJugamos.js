@@ -3,7 +3,7 @@ import '../fondo3.css'
 export default function comoJugamos (){
 
     return(
-        <div id="1" className="actives">
+        <div id="1" className="h actives ">
             
             <h1 >1) ¿Cómo jugamos?</h1>
             <p>

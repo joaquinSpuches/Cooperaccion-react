@@ -6,7 +6,7 @@ export default function footer (){
     return(
         <div id="footer">
         <img src={nodos}  /> 
-        <img src={cotagro} />
+        
     </div>
 
     )

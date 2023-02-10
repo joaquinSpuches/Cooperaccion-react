@@ -3,7 +3,8 @@ import '../fondo3.css'
 export default function queAprendimos (){
 
     return(
-        <div id="2" className="actives">
+        <div id="2" className="actives h">
+            
             
             <h1>2) ¿Qué aprendimos del cooperativismo?</h1>
             <p>

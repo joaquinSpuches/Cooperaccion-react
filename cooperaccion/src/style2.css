@@ -372,9 +372,9 @@ li{
 }
 #footer{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row-reverse;
     padding: 5%;
-    margin-top: 40px;
+    
     overflow-x: hidden;
     
  
@@ -382,6 +382,10 @@ li{
 #footer img{
     height: 100%; 
     padding: 30px;
-    max-height: 52px;
+    max-height: 72px;
     width: auto;
+}
+
+.h{
+    padding-top: 80px;
 }

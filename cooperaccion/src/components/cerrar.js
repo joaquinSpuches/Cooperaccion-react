@@ -1,8 +1,7 @@
 import React from "react";
 import '../style2.css'
 import candado from '../candado.png'
-import nodos from '../nodos_2.png'
-import cotagro from '../cotagro.png'
+
 export default function Cerrar (props){
 
 return(
