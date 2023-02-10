@@ -138,6 +138,9 @@ nav ul{
     flex-direction: column;
     
 }
+.bur{
+    -webkit-backdrop-filter: blur(4px);
+}
 a{
     text-decoration: none;
     padding: 10px;
