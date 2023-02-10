@@ -1,11 +1,12 @@
 import React from "react";
 
+import '../fondo3.css'
 export default function queAporta (){
 
     return(
-        <div>
+        <div id="3" className="actives">
             
-            <h1>¿Qué nos aporta y en qué podemos aplicarlo?</h1>
+            <h1>3) ¿Qué nos aporta y en qué podemos aplicarlo?</h1>
             <p>
             Invitar a los estudiantes a pensar sus problemas o situaciones cotidianas
             </p>
@@ -43,33 +44,33 @@ ocupó de la bebida y comida que se vendería durante los partidos y tu grupo se
 inscripciones. Al llegar al evento faltan los premios. Ningún grupo siente que era su responsabilidad.
 </li>
                 <li>
-5. Están organizando el viaje de egresados, con mucho esfuerzo están juntando plata entre todos para
+Están organizando el viaje de egresados, con mucho esfuerzo están juntando plata entre todos para
 pagar todos los gastos. El viaje se hará en micro excepto una compañera que por su condición física
 necesita viajar en avión. El costo de su pasaje será incluido para pagar entre todos.
 </li>
                 <li>
-6. Un grupo de alumnas y alumnos ha propuesto a la dirección del colegio que los estudiantes puedan
+Un grupo de alumnas y alumnos ha propuesto a la dirección del colegio que los estudiantes puedan
 pasar música en los recreos. La directora les dio el permiso. A la hora de seleccionar los temas, este
 grupo dice que solo ellos tienen derecho a elegir la música que se pasa ya que han sido quiénes hicieron
 la propuesta.
 </li>
                 <li>
-7. Están organizando un festejo de fin de año entre amigos. Unos quieren hacer un asado y otros
+Están organizando un festejo de fin de año entre amigos. Unos quieren hacer un asado y otros
 proponen pizza. Deciden votar para definir. Empieza la votación y quien “pone la casa” dice que su voto
 vale doble.
 </li>
                 <li>
-8. Otra escuela de tu comunidad ha sufrido destrozos en algunas aulas producto de un fuerte temporal.
+Otra escuela de tu comunidad ha sufrido destrozos en algunas aulas producto de un fuerte temporal.
 Tu escuela ofrece aulas para que los cursos afectados no pierdan días de clases hasta que se pueda
 reparar todo.
 </li>
                 <li>
-9. La escuela les propone trabajar en un comité de convivencia que estará formado por estudiantes y
+La escuela les propone trabajar en un comité de convivencia que estará formado por estudiantes y
 profesores. Se tomarán decisiones dando lugar al debate primero y luego a una votación, en donde cada
 persona tiene 1 voto y se gana por mayoría.
 </li>
                 <li>
-10. Una familia de la escuela está atravesando una situación complicada y un grupo de alumnos y
+Una familia de la escuela está atravesando una situación complicada y un grupo de alumnos y
 alumnas del colegio deciden organizar una rifa para recaudar fondos que serán entregados a dicha
 familia.</li>
             </ol>

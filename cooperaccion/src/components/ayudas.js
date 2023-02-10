@@ -2,7 +2,7 @@
 import '../style2.css';
 export default function Ayudas () {
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>AYUDAS</i></h1>
                     <p>Durante el juego podrán pedir hasta 2 ayudas cuando lo

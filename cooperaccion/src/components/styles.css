@@ -31,12 +31,12 @@ body {
   }
   
   .arrow--left {
-    left: 5px;
+    left: 3%;
   }
   
   .arrow--right {
-    left: auto;
-    right: 5px;
+   
+    right: 3%;
   }
   
   .arrow--disabled {

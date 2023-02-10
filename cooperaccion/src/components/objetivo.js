@@ -8,7 +8,7 @@ export default function Objetivo () {
     offset: ["end end", "start start"]
   });
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>OBJETIVO</i></h1>
  

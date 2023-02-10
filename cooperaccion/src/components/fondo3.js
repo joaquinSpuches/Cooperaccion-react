@@ -1,10 +1,13 @@
 import React,{Component} from "react";
 import {motion} from 'framer-motion'
 import '../style2.css';
+import '../fondo3.css'
 import logos from '../logo.png'
 import tablero from '../tablero.png'
 import Fondo3Article from "./fondo3Article";
 class fondo3 extends Component {
+
+    
     
     render(){
         return(
@@ -25,12 +28,14 @@ class fondo3 extends Component {
                   Sugerimos entonces la siguiente secuencia de trabajo:</p>
                   <motion.div id="circulo" animate={{x:-50}}>
                       <ul id="ulDespues">
-                          <a href="#como">¿Cómo jugamos?</a>
-                          <a href="#aprendimos">¿Qué aprendimos del cooperativismo?</a>
-                          <a href="#aporte">¿Qué nos aporta y en qué puedo/podemos aplicarlo?</a>
+                          <a href="#1">1) ¿Cómo jugamos?</a>
+                          <a href="#2">2) ¿Qué aprendimos del cooperativismo?</a>
+                          <a href="#3">3) ¿Qué nos aporta y en qué puedo/podemos aplicarlo?</a>
                       </ul>
                   </motion.div>
+                  <div className="example" style={{overflowY:'scroll',height:'50vh', scrollBehavior:'smooth'}}>
             <Fondo3Article/>
+            </div>
     </div> 
 </div>
     )

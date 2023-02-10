@@ -2,7 +2,7 @@
 import '../style2.css'
 export default function Dinamica () {
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>DINAMICA</i></h1>
                     <p> El objetivo es resolver las 4 Misiones para poder salir

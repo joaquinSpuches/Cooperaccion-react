@@ -35,9 +35,9 @@
     font-display: swap;
 }
 html {
-
+    
    
-   
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;
   
     scroll-behavior: smooth;
@@ -239,6 +239,15 @@ li{
     max-height: 0px;
     transition: all 0.3s ease-in-out;;
 }
+.porqueArticle::-webkit-scrollbar {
+    display: none ;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.porqueArticle {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 .porqueButtonActive{
     transition: all 0.3s ease-in-out;
    
@@ -275,11 +284,21 @@ li{
 }
 
 .articleJuego{
+
     scroll-snap-type: x mandatory;
    max-height: 0vh;
     overflow-x: scroll;
     display: flex;
    
+}
+.example::-webkit-scrollbar {
+    display: none ;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 .articleJuego p{
     margin-top: 40px;
@@ -300,6 +319,8 @@ li{
     margin-top: 50px;
 }
 #circulo{
+    margin-top: 30px ;
+    margin-bottom: 30px;
     width: 282px;
     height: 282px;
     border-radius: 50%;

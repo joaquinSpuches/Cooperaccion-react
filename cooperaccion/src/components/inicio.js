@@ -3,7 +3,7 @@ import '../style2.css'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 export default function Inicio () {
-    const [clicked,setClicked] = useState(false)
+    const [clicked,setClicked] = useState(true)
     const handleClick = ()=>
     {
         setClicked(!clicked)
@@ -14,7 +14,7 @@ export default function Inicio () {
 
     
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1 id='inicio'><i>INICIO</i></h1><p>
  Para comenzar, se tomará la Tarjeta de Inicio.

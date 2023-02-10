@@ -1,11 +1,11 @@
 import React from "react";
-
+import '../fondo3.css'
 export default function comoJugamos (){
 
     return(
-        <div>
+        <div id="1" className="actives">
             
-            <h1>¿Cómo jugamos?</h1>
+            <h1 >1) ¿Cómo jugamos?</h1>
             <p>
             Preguntar a los estudiantes cómo ha sido este juego, en qué se pareció a otros juegos que suelen jugar, en
 qué fue distinto. Escuchar las distintas percepciones y sensaciones; pedir ejemplos que reflejen lo que están

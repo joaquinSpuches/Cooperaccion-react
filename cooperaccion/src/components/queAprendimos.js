@@ -1,11 +1,11 @@
 import React from "react";
-
+import '../fondo3.css'
 export default function queAprendimos (){
 
     return(
-        <div>
+        <div id="2" className="actives">
             
-            <h1>¿Qué aprendimos del cooperativismo?</h1>
+            <h1>2) ¿Qué aprendimos del cooperativismo?</h1>
             <p>
             Sugerimos “mezclar” a todos los estudiantes y armar 4 grupos, de modo tal que no queden tal cual como
 jugaron.

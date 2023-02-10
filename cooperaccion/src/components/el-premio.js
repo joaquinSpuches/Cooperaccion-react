@@ -2,7 +2,7 @@ import '../style2.css'
 
 export default function ElPremio () {
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>EL PREMIO</i></h1>
                     <p>Al abrir el candado encontrarán dentro de la caja una tarjeta

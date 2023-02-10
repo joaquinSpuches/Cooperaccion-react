@@ -42,19 +42,7 @@ function Fondo2 (props)  {
                    
                     </motion.article>
                 </motion.div> */}
-            <div style={{ padding: '50px', display: 'flex',justifyContent: 'space-around'}}>
-                <div id="objetivoP" className="puntito seleccionado" style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-                <div id="objetivoP" className="puntito " style={{width:'4px'}}></div>
-               
-               {
-      
-               }
-            </div>  
+    
         </div>
         
     </div>

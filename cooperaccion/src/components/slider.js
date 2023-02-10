@@ -8,75 +8,35 @@ import ElCandado from './el-candado'
 import ElPremio from './el-premio'
 import Ayudas from './ayudas'
 import '../style2.css'
+
+import "./styles.css"
 import "keen-slider/keen-slider.min.css"
 import "./styles.css"
 
-const AdaptiveHeight = (slider) => {
-  function updateHeight() {
-    slider.container.style.height =
-      '60vh'
-  }
-  slider.on("created", updateHeight)
-  slider.on("slideChanged", updateHeight)
-}
-
-export default function App() {
-  const [currentSlide, setCurrentSlide] = React.useState(0)
+export default () => {
+  const [currentSlide, setCurrentSlide] = useState(0)
   const [loaded, setLoaded] = useState(false)
-  const [sliderRef, instanceRef] = useKeenSlider(
-    {
-      initial: 0,
-      slideChanged(s) {
-        setCurrentSlide(s.track.details.rel)
-      },
-      created() {
-        setLoaded(true)
-      },
+  const [sliderRef, instanceRef] = useKeenSlider({
+    initial: 0,
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel)
     },
-    [AdaptiveHeight]
-  )
+    created() {
+      setLoaded(true)
+    },
+  })
 
   return (
     <>
-      <div ref={sliderRef}className="navigation-wrapper">
-        <div ref={sliderRef} className="keen-slider">
-          <div className="keen-slider__slide number-slide1 slide" ><Objetivo/></div>
-          <div
-            className="keen-slider__slide number-slide2"
-            style={{ height: 500 }}
-          >
-            <Participantes/>
-          </div>
-          <div
-            className="keen-slider__slide number-slide3"
-            style={{ height: 400 }}
-          >
-        <Inicio/>
-          </div>
-          <div className="keen-slider__slide number-slide4"
-          style={{ height: 300 }}
-          >
-            <Dinamica/>
-            </div>
-          <div
-            className="keen-slider__slide number-slide5"
-            style={{ height: 300 }}
-          >
-            <Ayudas/>
-          </div>
-          <div
-            className="keen-slider__slide number-slide6"
-            style={{ height: 20 }}
-          >
-            <ElCandado/>
-          </div>
-          <div
-            className="keen-slider__slide number-slide6"
-            style={{ height: 20 }}
-          >
-            <ElPremio/>
-          </div>
-          
+      <div className="navigation-wrapper" >
+        <div ref={sliderRef} className="keen-slider" style={{height:'500px'}} >
+          <div className="keen-slider__slide number-slide1"><Objetivo/></div>
+          <div className="keen-slider__slide number-slide2"><Participantes/></div>
+          <div className="keen-slider__slide number-slide3"><Inicio/></div>
+          <div className="keen-slider__slide number-slide4"><Dinamica/></div>
+          <div className="keen-slider__slide number-slide5"><Ayudas/></div>
+          <div className="keen-slider__slide number-slide6"><ElCandado/></div>
+          <div className="keen-slider__slide number-slide7"><ElPremio/></div>
         </div>
         {loaded && instanceRef.current && (
           <>

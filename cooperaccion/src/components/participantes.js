@@ -2,7 +2,7 @@ import '../style2.css'
 
 export default function Participantes () {
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>PARTICIPANTES</i></h1>
                     <p>   Los participantes formarán 4 grupos, idealmente cada grupo 

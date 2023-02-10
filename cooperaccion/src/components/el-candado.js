@@ -2,7 +2,7 @@ import '../style2.css'
 
 export default function ElCandado () {
     return(
-        <div className="articles">
+        <div className="articles example">
             
  <h1><i>EL CANDADO</i></h1>
                     <p> Cuando los 4 grupos completan una misión pueden armar el 
