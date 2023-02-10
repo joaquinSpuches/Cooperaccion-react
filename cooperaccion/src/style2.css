@@ -67,6 +67,9 @@ html {
   .hamburger:hover{
     cursor: pointer;
   }
+  .inactive{
+    display: none;
+  }
   
 #hamburger-6.is-active{
     -webkit-transition: all 0.3s ease-in-out;

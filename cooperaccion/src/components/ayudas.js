@@ -5,11 +5,10 @@ export default function Ayudas () {
         <div className="articles example">
             
  <h1><i>AYUDAS</i></h1>
-                    <p>Durante el juego podrán pedir hasta 2 ayudas cuando lo
-                deseen. El pedido de ayuda es de todos los grupos, es decir,
-                deben acordar todos cuándo lo piden y esa ayuda se brinda a
-                todos los grupos.
-            </p>
+                <p>Durante el juego podrán pedir hasta <b>2 Tarjetas de ayuda </b> cuando lo deseen. 
+Pero deben acordar entre todos los equipos cuando lo piden. Y la ayuda se brinda a todos
+
+                </p>
         </div>
     )
         
