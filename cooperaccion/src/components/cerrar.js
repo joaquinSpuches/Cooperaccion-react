@@ -6,7 +6,7 @@ export default function Cerrar (props){
 
 return(
     <div id="cerrar" >
-    <h3 className="title"   > Cerrar para abrir </h3>
+    <h3 className="title"   > CERRAR PARA ABRIR</h3>
     <div>
     <img src={candado} />
     </div>
