@@ -37,7 +37,7 @@ class fondo3 extends Component {
                   <div className="example" style={{overflowY:'scroll',height:'70vh', scrollBehavior:'smooth'}}>
             <Fondo3Article/>
             </div>
-            <motion.div id="circulo" animate={{x:-50,scale:.6}}>
+            <motion.div id="circulo" animate={{x:-50,scale:.6,y:-60}}>
                       <ul id="ulDespues">
                           <a href="#1">1) ¿Cómo jugamos?</a>
                           <a href="#2">2) ¿Qué aprendimos del cooperativismo?</a>
