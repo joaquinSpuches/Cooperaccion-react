@@ -1,15 +1,15 @@
-import React,{Component,useRef} from "react";
+import React,{Component} from "react";
 import {motion} from 'framer-motion'
 import '../style2.css';
 import '../fondo3.css'
 import logos from '../logo.png'
 import tablero from '../tablero.png'
 import Fondo3Article from "./fondo3Article";
-function Fondo3 () {
-    const ref1= useRef(null)
-    const executeScroll1 = () => ref1.current.scrollIntoView() 
+class fondo3 extends Component {
+
     
-   
+    
+    render(){
         return(
             <div className="fondo3" style={{height: 'auto'}}>
             <br/>
@@ -35,11 +35,11 @@ function Fondo3 () {
                       </ul>
                   </motion.div>
                   <div className="example" style={{overflowY:'scroll',height:'70vh', scrollBehavior:'smooth'}}>
-            <Fondo3Article ref />
+            <Fondo3Article/>
             </div>
             <motion.div id="circulo" animate={{x:-50,scale:.6,y:-60,z:100}}>
                       <ul id="ulDespues">
-                          <a onClick={executeScroll1}>1) ¿Cómo jugamos?</a>
+                          <a href="#1">1) ¿Cómo jugamos?</a>
                           <a href="#2">2) ¿Qué aprendimos del cooperativismo?</a>
                           <a href="#3">3) ¿Qué nos aporta y en qué puedo/podemos aplicarlo?</a>
                       </ul>
@@ -48,8 +48,8 @@ function Fondo3 () {
     </div> 
 </div>
     )
-
+}
 }
 
 
-export default Fondo3
+export default fondo3
