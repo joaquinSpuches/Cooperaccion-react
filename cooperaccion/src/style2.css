@@ -191,7 +191,7 @@ nav ul a{
     width: 250px;
     border-radius: 10px 0 0 10px;
     right: 0;
-    margin-top: 65px;
+    margin-top: 100px
 }
 h1{
    
@@ -360,7 +360,7 @@ li{
 }
 
 #cerrar{
-    min-height: 100vh;
+    min-height: 80vh;
     height: 100%;
     display: flex;
     overflow-x: hidden;
@@ -376,12 +376,12 @@ li{
 }
 #cerrar p{
     color: #212427;
-    padding: 5%;
+    padding:0;
 }
 #footer{
     display: flex;
     flex-direction: row-reverse;
-    padding: 5%;
+    padding: 3%;
     
     overflow-x: hidden;
     
@@ -396,4 +396,32 @@ li{
 
 .h{
     padding-top: 80px;
+}
+
+@media (min-width: 1080px){
+    nav{
+        left:0;
+        position: fixed;
+        background: transparent;
+        justify-content: flex-start;
+        padding: 16px;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        height: auto;
+        
+        
+    }
+    nav ul{
+        flex-direction: row;
+
+        
+    }
+    .hamburger{
+        display: none;
+
+    }
+    .bur{
+   margin-top:-1000px;
+        
+    }
 }
