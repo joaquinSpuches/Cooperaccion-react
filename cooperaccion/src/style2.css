@@ -129,6 +129,7 @@ nav{
     display: flex;
     justify-content: center ;
     padding-top: 100px;
+    z-index: 1;
     left: -100vw;
     transition: 0.5s ease-out;
 }
@@ -168,6 +169,7 @@ nav ul a{
     width: 100vw ;
     background-image: url('eljuego.png');
     background-color: #6EC6B7;
+    min-height: 100vh;
 }
 .fondo3{
     background-image: url('ydespues.png');
@@ -217,12 +219,18 @@ li{
    
 }
 
-#elJuego{
+#elJuego ul{
+    padding: 5%;
+    
    
+}
+li{
+    font-size: 18px;
 }
 #yDespues{
     padding: 5%
 }
+
 .porqueButton{
     margin-bottom: 100px;
     margin-top: 50px;

@@ -23,20 +23,21 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
+    scale: .5;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     fill: #fff;
     cursor: pointer;
   }
-  
+
   .arrow--left {
-    left: 3%;
+    left: 0
   }
   
   .arrow--right {
    
-    right: 3%;
+    right: 0
   }
   
   .arrow--disabled {
@@ -86,5 +87,18 @@ body {
   .keen-slider .keen-slider__slide {
  
 
+  }
+  @media(min-width: 780px){
+    .arrow{
+      scale: 1;
+    }  
+    .arrow--left {
+      left: 3%;
+    }
+    
+    .arrow--right {
+     
+      right: 3%;
+    }
   }
   

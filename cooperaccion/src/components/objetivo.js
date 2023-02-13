@@ -1,20 +1,16 @@
 import '../style2.css';
-import {motion, useScroll } from 'framer-motion';
-import { useRef } from 'react';
+
 export default function Objetivo () {
-    const ref = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["end end", "start start"]
-  });
+    
+  
     return(
         <div className="articles example">
             
- <h1><i>OBJETIVO</i></h1>
+          <h1><i>OBJETIVO</i></h1>
  
-                    <p>Cooper<b>acción</b> es un juego de escape.
-                    El objetivo es resolver un problema juntos a través de cumplir 4 misiones. Se parte de una situación que se comparte con el grupo y se los desafía a resolverla en un tiempo determinado de tiempo.
-                   </p>
+          <p>Cooper<b>acción</b> es un juego de escape.
+          El objetivo es resolver un problema juntos a través de cumplir 4 misiones. Se parte de una situación que se comparte con el grupo y se los desafía a resolverla en un tiempo determinado de tiempo.
+          </p>
                   
      
         </div>

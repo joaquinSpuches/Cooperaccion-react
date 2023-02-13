@@ -11,7 +11,8 @@ import React from "react";
             <span className="line"></span>
                 <span className="line"></span>
                 <span className="line"></span>
-            </div></div>
+            </div>
+            </div>
         )
     }
 

@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import ComoJugamos from "./comoJugamos";
 import QueAprendimos from './queAprendimos'
 import QueAporta from "./queAporta";
