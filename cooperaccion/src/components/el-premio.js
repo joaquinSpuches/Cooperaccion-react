@@ -10,13 +10,13 @@ export default function ElPremio () {
                     forma de salir” Cada colegio podrá definir el “premio” o dar a
                     elegir a los estudiantes. </p>
                     <br/> 
-                    <br/>
-                    <b>Algunas ideas son:</b> 
-                    <ul>
+                    
+                    <p><b>Algunas ideas son:</b> </p>
+                    <ul style={{padding:'20px'}}>
                     <li>Un desayuno/almuerzo/merienda cooperativa (dar la
                     posibilidad al grupo de organizar un encuentro con espíritu
                     cooperativo en donde se comparta una comida). </li>
-                    <br/>
+                    
                     <li>Organizar una jornada de juegos cooperativos para la escuela,
                     la comunidad o familias, permitiendo que cuenten con un
                     espacio de tiempo semanal para organizar y diseñar esta
