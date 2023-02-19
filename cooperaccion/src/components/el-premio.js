@@ -11,7 +11,7 @@ export default function ElPremio () {
                     elegir a los estudiantes. </p>
                     <br/> 
                     
-                    <p><b>Algunas ideas son:</b> </p>
+                    <p style={{color:'#f5f5f7'}}><b>Algunas ideas son:</b> </p>
                     <ul style={{padding:'20px'}}>
                     <li>Un desayuno/almuerzo/merienda cooperativa (dar la
                     posibilidad al grupo de organizar un encuentro con espíritu
