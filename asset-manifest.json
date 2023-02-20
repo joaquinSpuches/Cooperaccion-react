@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cooperaccion-react/static/css/main.7632f2fd.css",
-    "main.js": "/Cooperaccion-react/static/js/main.b1d52dbd.js",
+    "main.js": "/Cooperaccion-react/static/js/main.707b72d5.js",
     "static/js/787.91ba2e3c.chunk.js": "/Cooperaccion-react/static/js/787.91ba2e3c.chunk.js",
     "static/media/Asset 4.png": "/Cooperaccion-react/static/media/Asset 4.08ee34578a2705cb5704.png",
     "static/media/tablero.png": "/Cooperaccion-react/static/media/tablero.00779b180385035caa5e.png",
@@ -21,11 +21,11 @@
     "static/media/logo.svg": "/Cooperaccion-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Cooperaccion-react/index.html",
     "main.7632f2fd.css.map": "/Cooperaccion-react/static/css/main.7632f2fd.css.map",
-    "main.b1d52dbd.js.map": "/Cooperaccion-react/static/js/main.b1d52dbd.js.map",
+    "main.707b72d5.js.map": "/Cooperaccion-react/static/js/main.707b72d5.js.map",
     "787.91ba2e3c.chunk.js.map": "/Cooperaccion-react/static/js/787.91ba2e3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7632f2fd.css",
-    "static/js/main.b1d52dbd.js"
+    "static/js/main.707b72d5.js"
   ]
 }
